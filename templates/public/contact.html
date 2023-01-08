@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head.html' %}
+<body>
+    {% include 'navbar.html' %}
+    <div class="page-container">
+        <div class="content-wrap">
+            <main>
+                <div class="contact-main">
+                    <div class="contact-image-container">
+                    </div>
+                    <div class="form-contact-container">
+                        <p>FOR BUSINESS INQUIRIES
+                            & MEDIA KIT REQUESTS</p>
+                        <form class="form-contact">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Agency/Brand">
+                            <textarea placeholder="Message" cols="60" rows="15">
+
+                            </textarea>
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+        {% include 'footer.html' %}
+    </div>
+</body>
+</html>

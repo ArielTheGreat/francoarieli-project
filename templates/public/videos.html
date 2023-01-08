@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head.html' %}
+<body>
+    {% include 'navbar.html' %}
+    <div class="page-container">
+        <div class="content-wrap">
+            <main class="videos-main">
+                <div>
+                    <iframe class="videos-iframe"
+                            src="https://www.youtube.com/embed/1VFkzIk1JCQ"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                    <h3><a href="#">Ich will lernen wie man Muscle Ups machen kann!</a></h3>
+                </div>
+                <div>
+                    <iframe class="videos-iframe"
+                            src="https://www.youtube.com/embed/dmyBjvGN8is"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                    <h3><a href="#">Ich will lernen wie man den Handstand machen kann!</a></h3>
+                </div>
+            </main>
+        </div>
+        {% include 'footer.html' %}
+    </div>
+</body>
+</html>
